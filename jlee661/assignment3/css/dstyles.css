@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Content Styles */
+.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Image Container and Detail Image Styling */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.detailed-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 80vh; /* Viewport height 기준 최대 높이 */
+    object-fit: contain; /* 이미지 비율을 유지하며 공간에 맞춤 */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+.view-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer (if needed for detail view) */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 1.4;
+}
