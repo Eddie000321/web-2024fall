@@ -26,7 +26,6 @@ This repository contains assignments and a project developed as part of the Web 
    - A responsive survey form designed to collect user input.  
      Features:
      - Interactive form fields.
-     - Optimized for usability across devices.
 
 ---
 
