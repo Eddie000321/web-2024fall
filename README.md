@@ -10,14 +10,23 @@ This repository contains assignments and a project developed as part of the Web 
 1. **[Main Page](http://studentweb.cencol.ca/jlee661/)**  
    - A hub linking to all assignments and projects.
 
-2. **[Assignment 2](http://studentweb.cencol.ca/jlee661/assignment2/assignment2.html)**  
-   - Explores basic HTML and CSS structures, focusing on semantic tags and layout design.
+2. **[Assignment 2: Climate Change and Environment](http://studentweb.cencol.ca/jlee661/assignment2/assignment2.html)**  
+   - A website focusing on climate change and environmental issues.  
+     Features:
+     - Informative content about global warming and sustainable practices.
+     - Structured layout with clean design using HTML and CSS.
 
-3. **[Assignment 3](http://studentweb.cencol.ca/jlee661/assignment3/assignment3.html)**  
-   - Enhances interactivity using advanced CSS styling and responsive design techniques.
+3. **[Assignment 3: Car Product Showcase](http://studentweb.cencol.ca/jlee661/assignment3/assignment3.html)**  
+   - A homepage designed to showcase car products.  
+     Features:
+     - Detailed sections highlighting car specifications and features.
+     - Enhanced visual presentation with advanced CSS styling.
 
-4. **[Assignment 4](http://studentweb.cencol.ca/jlee661/assignment4/assignment4.html)**  
-   - Combines HTML and CSS to create a structured and visually appealing webpage.
+4. **[Assignment 4: Web-based Survey Form](http://studentweb.cencol.ca/jlee661/assignment4/assignment4.html)**  
+   - A responsive survey form designed to collect user input.  
+     Features:
+     - Interactive form fields.
+     - Optimized for usability across devices.
 
 ---
 
