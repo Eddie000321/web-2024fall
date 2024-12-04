@@ -1,11 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--Created by: jaehyeok lee (Student No. 301432560) - Created on: Sep 12, 2024-->
+    <!--Created by: Jaehyeok Lee (Student No. 301432560) - Created on: Nov 07, 2024-->
 <head>
-    <title>Assignment 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course/Instructor Evaluation Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div>
-		Placeholder for assignmet4
-	</div>
+    <a href="http://www.centennialcollege.ca" target="_blank">
+        <img src="centennialcollege_logo_horizontal_rgb.jpg" alt="College Banner" style="width:100%; height: auto;">
+    </a>
+    <h1>Centennial College</h1>
+    <h2>Continuing Education Course/Instructor Evaluation</h2>
+
+    <p class="thank">Please read each statement carefully and consider each one individually. Give only one answer for each question.</p>
+
+    <form action="#" method="post">
+        <label for="course-name">Course Name/Code:</label>
+        <input type="text" id="course-name" name="course-name"><br><br>
+
+        <label for="semester">Semester:</label>
+        <select id="semester" name="semester">
+            <option value="fall">Fall</option>
+            <option value="winter">Winter</option>
+            <option value="spring/summer">Spring/Summer</option>
+        </select><br><br>
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year"><br><br>
+
+        <label for="instructor">Instructor:</label>
+        <input type="text" id="instructor" name="instructor"><br><br>
+
+        <h3>INSTRUCTOR</h3>
+        <p>How would you rate the instructor's:</p>
+        <div class="question">
+            <p>1. <strong>knowledge</strong> of subject?</p>
+            <label><input type="radio" name="q1" value="Excellent"> (a) Excellent</label>
+            <label><input type="radio" name="q1" value="Good"> (b) Good</label>
+            <label><input type="radio" name="q1" value="Fair"> (c) Fair</label>
+            <label><input type="radio" name="q1" value="Not Satisfactory"> (d) Not Satisfactory</label>
+        </div>
+
+        <div class="question">
+            <p>2. <strong>presentation</strong> of material?</p>
+            <label><input type="radio" name="q2" value="Excellent"> (a) Excellent</label>
+            <label><input type="radio" name="q2" value="Good"> (b) Good</label>
+            <label><input type="radio" name="q2" value="Fair"> (c) Fair</label>
+            <label><input type="radio" name="q2" value="Not Satisfactory"> (d) Not Satisfactory</label>
+        </div>
+
+        <div class="question">
+            <p>3. <strong>interaction</strong> with students?</p>
+            <label><input type="radio" name="q3" value="Excellent"> (a) Excellent</label>
+            <label><input type="radio" name="q3" value="Good"> (b) Good</label>
+            <label><input type="radio" name="q3" value="Fair"> (c) Fair</label>
+            <label><input type="radio" name="q3" value="Not Satisfactory"> (d) Not Satisfactory</label>
+        </div>
+
+        <div class="question">
+            <p>4. <strong>overall</strong> satisfaction?</p>
+            <label><input type="radio" name="q4" value="Excellent"> (a) Excellent</label>
+            <label><input type="radio" name="q4" value="Good"> (b) Good</label>
+            <label><input type="radio" name="q4" value="Fair"> (c) Fair</label>
+            <label><input type="radio" name="q4" value="Not Satisfactory"> (d) Not Satisfactory</label>
+        </div>
+
+        <div class="question">
+            <p>5. overall <strong>performance</strong>?</p>
+            <label><input type="radio" name="q5" value="Excellent"> (a) Excellent</label>
+            <label><input type="radio" name="q5" value="Good"> (b) Good</label>
+            <label><input type="radio" name="q5" value="Fair"> (c) Fair</label>
+            <label><input type="radio" name="q5" value="Not Satisfactory"> (d) Not Satisfactory</label>
+        </div>
+
+        <h3>COURSE</h3>
+        <div class="question">
+            <p>6. How would you rate the <strong>course materials</strong>?</p>
+            <label><input type="radio" name="q6" value="Excellent"> (a) Excellent</label>
+            <label><input type="radio" name="q6" value="Good"> (b) Good</label>
+            <label><input type="radio" name="q6" value="Fair"> (c) Fair</label>
+            <label><input type="radio" name="q6" value="Not Satisfactory"> (d) Not Satisfactory</label>
+        </div>
+        <div class="question">
+            <p>7. How much did this course meet your <strong>expectations</strong>?</p>
+            <label><input type="radio" name="q7" value="Excellent"> (a) Excellent</label>
+            <label><input type="radio" name="q7" value="Good"> (b) Good</label>
+            <label><input type="radio" name="q7" value="Fair"> (c) Fair</label>
+            <label><input type="radio" name="q7" value="Not Satisfactory"> (d) Not Satisfactory</label>
+        </div>
+        <div class="question">
+            <p>8. How would you rate the <strong>course materials</strong>?</p>
+            <label><input type="radio" name="q8" value="Excellent"> (a) Excellent</label>
+            <label><input type="radio" name="q8" value="Good"> (b) Good</label>
+            <label><input type="radio" name="q8" value="Fair"> (c) Fair</label>
+            <label><input type="radio" name="q8" value="Not Satisfactory"> (d) Not Satisfactory</label>
+        </div>
+
+        <h3><strong>GENERAL INFORMATION</strong></h3>
+        <label><strong>9. Select the top 3 qualities of your instructor: (Select up to 3)</strong></label><br>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="qualities" value="Approachable"> <strong>Approachable</strong></label>
+            <label><input type="checkbox" name="qualities" value="Knowledgeable"> <strong>Knowledgeable</strong></label>
+            <label><input type="checkbox" name="qualities" value="Methodical"> <strong>Methodical</strong></label>
+            <label><input type="checkbox" name="qualities" value="Organized"> <strong>Organized</strong></label>
+            <label><input type="checkbox" name="qualities" value="Punctual"> <strong>Punctual</strong></label>
+            <label><input type="checkbox" name="qualities" value="Flexible"> <strong>Flexible</strong></label>
+        </div>
+
+        <label><strong>10. Select the reasons for choosing the course (all that apply):</strong></label><br>
+        <div class="checkbox-group">
+            <label><input type="checkbox" name="reasons" value="Interested"> <strong>Interested</strong></label>
+            <label><input type="checkbox" name="reasons" value="Required"> <strong>Required</strong></label>
+            <label><input type="checkbox" name="reasons" value="Needed the credit"> <strong>Needed the credit</strong></label>
+            <label><input type="checkbox" name="reasons" value="Suited my schedule"> <strong>Suited my schedule</strong></label><br><br>
+        </div>
+        
+        <h3>ANY OTHER COMMENTS</h3>
+        <label for="comments">11. What is the <strong>best thing</strong> about this course?</label><br>
+        <textarea id="comments" name="comments" rows="3" cols="50"></textarea><br><br>
+
+        <label for="improvements">12. How could we <strong>improve</strong> this course?</label><br>
+        <textarea id="improvements" name="improvements" rows="3" cols="50"></textarea><br><br>
+
+        <label for="other">13. Other:</label><br>
+        <textarea id="other" name="other" rows="3" cols="50"></textarea><br><br>
+
+        <button type="button" onclick="window.location.href='submit.html'">Submit</button>
+    </form>
+
+    <p class="thank">Thank you! We pay attention to your feedback!</p>
+    <p class="thank">Web: <a href="http://www.centennialcollege.ca/continuing_education" target="_blank">www.centennialcollege.ca/continuing_education</a></p>
+    <p class="thank">Email: <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a></p>
+    <p class="thank">&copy; 2024 Jaehyeok Lee, Student Number - 301432560 | Assignment 4 - COMP213 <a href="../index.html" class="home-link">Home Page</a><br>
+        This webpage is created for educational purposes as part of a COMP213 assignment at Centennial College.</p>
 </body>
+</html>

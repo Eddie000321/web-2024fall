@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 980px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1, h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    
+    display: block; /* Ensures label takes a full row for clearer form structure */
+    margin-top: 10px; /* Adds space above each label */
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle; /* Adjusts the alignment with the text */
+}
+
+/* Ensuring checkboxes are displayed inline */
+.checkbox-group label {
+    display: inline; /* Keeps checkboxes and their labels on the same line */
+    margin-right: 10px; /* Space between each checkbox option */
+}
+
+input[type="checkbox"]:checked:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+button {
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block; /* Makes the button a block element */
+    width: auto; /* Allows the button to size according to its content */
+    margin-top: 20px; /* Adds space above the button */
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #0056b3;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="checkbox"]:checked:disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+button {
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #77ff00;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #0056b3;
+}
+.banner-link img {
+    width: 100%; /* Ensures the banner stretches to the full container width */
+    height: auto; /* Keeps the image aspect ratio intact */
+    display: block; /* Removes bottom space/gap under the image */
+}
+
+/* Example palette harmonization */
+body {
+    background-color: #f4f4f4; /* A light grey, neutral background */
+    color: #333; /* Dark grey text for readability */
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    border: 1px solid #ccc; /* Light grey border */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.thank {
+    text-align: center; /* Centers text within the element */
+    margin: 10px 0; /* Adds top and bottom margin for spacing */
+}
+
+.question, .checkbox-group {
+    margin-bottom: 20px;
+}
+
+.question p, .checkbox-group p {
+    margin-bottom: 10px;
+}
+
+.question label, .checkbox-group label {
+    display: inline-block; /* Align items horizontally */
+    margin-right: 10px; /* Spacing between each option */
+    white-space: nowrap; /* Ensures the labels do not break into multiple lines */
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}

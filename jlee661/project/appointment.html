@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - Nature Harmony Spa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="appointment.html">Book Now</a></li>
+                <li><a href="sitemap.html">Site Map</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Book Your Appointment</h1>
+        <form action="mailto:natureharmonyspa@my.centennialcollege.ca" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Select Service:</label>
+                <select id="service" name="service" required>
+                    <option value="">Choose a service...</option>
+                    <option value="zero-waste">Zero-Waste Body Treatment</option>
+                    <option value="facial">Plant-Based Facial Care</option>
+                    <option value="massage">Eco-Detox Massage</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+
+            <div class="form-group">
+                <label for="health">Health Issues or Allergies:</label>
+                <textarea id="health" name="health" rows="3"
+                placeholder="EX)Chronic Pain or Injuries, Bee Product Sensitivity"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="3"
+                placeholder="Please write down anything we need to know."></textarea>
+            </div>
+
+            <button type="submit">Submit Booking</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nature Harmony Spa. All rights reserved.</p>
+        <p>This website is created for the purpose of COMP 213 Team Project and is not an actual website.</p>
+        <p>Developed by: Jaehyeok Lee(301432560) & Hojun Kim(301459546)</p>
+    </footer>
+</body>
+</html>
