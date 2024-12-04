@@ -7,8 +7,5 @@ This repository contains assignments and projects from the **Web Programming** c
 ### Highlights
 - Assignments 2, 3, and 4
 - Individual and team projects
-- Web development practice using HTML, CSS, and JavaScript
+- Web development practice using HTML, CSS
 
---- 
-
-Let me know if you need further refinements! 😊
