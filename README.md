@@ -44,8 +44,3 @@ This repository contains assignments and a project developed as part of the Web 
 - Demonstrates skills in structuring content, styling with CSS, and implementing interactive features.
 
 ---
-
-## 📫 Contact
-For any questions or feedback, feel free to connect:
-- 💼 [LinkedIn](https://www.linkedin.com/in/eddie-lee-7b7271229/)
-- 🌐 [Main Page](http://studentweb.cencol.ca/jlee661/)
